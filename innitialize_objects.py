@@ -21,6 +21,10 @@ Steve.ID = 3789
 Steve.salary = 60000
 Steve.department = "HR"
 
+# we can also create a new proprty outside a class
+Steve.title = "Manager"
+
 print("ID =", Steve.ID)
 print("Salary =", Steve.salary)
 print("Department =", Steve.department)
+print("Title: ", Steve.title)
