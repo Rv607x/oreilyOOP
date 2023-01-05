@@ -50,3 +50,12 @@ class Player2:
 p1 = Player2("lol")
 p1.demo()
 Player2.demo()
+
+class Bodyinfo:
+    @staticmethod
+    def bmi(weight, height):
+        return weight / height
+
+weight = 75
+height = 1.8
+print(Bodyinfo.bmi(weight, height))
